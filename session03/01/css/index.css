@@ -1,0 +1,17 @@
+.box {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+
+.box-1 {
+    background-color: #2E89FF;
+}
+
+.box-2 {
+    background-color: #F9A900;
+}
+
+.box-3 {
+    background-color: #F73633;
+}
