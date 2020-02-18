@@ -5,25 +5,25 @@
 }
 
 @mixin media-query-lg() {
-  @media (max-width: 1200px) {
+  @media (min-width: 992px) {
     @content
   }
 }
 
 @mixin media-query-md() {
-  @media (max-width: 992px) {
+  @media (min-width: 768px) {
     @content
   }
 }
 
 @mixin media-query-sm() {
-  @media (max-width: 768px) {
+  @media (min-width: 576px) {
     @content
   }
 }
 
 @mixin media-query-xs() {
-  @media (max-width: 576px) {
+  @media (min-width: 0px) {
     @content
   }
 }

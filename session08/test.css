@@ -1,0 +1,26 @@
+@media (min-width: 0px) {
+  .test-1 {
+    font-size: 20px;
+    color: #c82333; } }
+
+@media (min-width: 576px) {
+  .test-1 {
+    font-size: 30px;
+    color: #0b2e13; } }
+
+@media (min-width: 768px) {
+  .test-1 {
+    font-size: 40px;
+    color: #1c7430; } }
+
+@media (min-width: 992px) {
+  .test-1 {
+    font-size: 50px;
+    color: #2E89FF; } }
+
+@media (min-width: 1200px) {
+  .test-1 {
+    font-size: 60px;
+    color: #c82333; } }
+
+/*# sourceMappingURL=test.css.map */

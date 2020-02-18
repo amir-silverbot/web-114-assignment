@@ -1,0 +1,36 @@
+@import "media_query_mixins";
+
+.test-1 {
+  @include media-query-xs() {
+    font-size: 20px;
+    color: #c82333;
+  }
+}
+
+.test-1 {
+  @include media-query-sm() {
+    font-size: 30px;
+    color: #0b2e13;
+  }
+}
+
+.test-1 {
+  @include media-query-md() {
+    font-size: 40px;
+    color: #1c7430;
+  }
+}
+
+.test-1 {
+  @include media-query-lg() {
+    font-size: 50px;
+    color: #2E89FF;
+  }
+}
+
+.test-1 {
+  @include media-query-xl() {
+    font-size: 60px;
+    color: #c82333;
+  }
+}
