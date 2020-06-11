@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Conv_B_Mitra_Regular';
+    src: url('./B_Mitra_Regular.eot');
+    src: local('☺'), url('./B_Mitra_Regular.woff') format('woff'), url('./B_Mitra_Regular.ttf') format('truetype'), url('./B_Mitra_Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSans-Medium';
+    src: url('./IRANSans-Medium.eot?#iefix') format('embedded-opentype'), url('./IRANSans-Medium.woff') format('woff'), url('./IRANSans-Medium.ttf') format('truetype'), url('./IRANSans-Medium.svg#IRANSans-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('./BYekan.eot?#iefix') format('embedded-opentype'), url('./BYekan.woff') format('woff'), url('./BYekan.ttf') format('truetype'), url('./BYekan.svg#BYekan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

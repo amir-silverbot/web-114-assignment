@@ -1,0 +1,20 @@
+@mixin title-underline($color) {
+    &::before {
+        content: "";
+        display: block;
+        width: 150px;
+        height: 5px;
+        background: $color;
+        position: absolute;
+        top: calc(100% + 15px);
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+@mixin parallelogram($width, $height, $degree, $background: rgba(#000000, 0.4)) {
+    width: $width;
+    height: $height;
+    transform: skew($degree);
+    background: $background;
+}

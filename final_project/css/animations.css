@@ -1,0 +1,100 @@
+@keyframes top-menu-icon-before-anim {
+    from {
+        top: -10px;
+    }
+    to {
+        top: 2.5px;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes top-menu-icon-after-anim {
+    from {
+        top: 5px;
+    }
+    to {
+        top: 2.5px;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes top-navbar-miniaturization-anim {
+    from {
+        height: 100px;
+    }
+    to {
+        height: 60px;
+    }
+}
+
+@keyframes top-navbar-maximization-anim {
+    from {
+        height: 60px;
+    }
+    to {
+        height: 100px;
+    }
+}
+
+@keyframes camera-anim {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes text-anim {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@keyframes open-top-to-bottom-anim {
+    from {
+        height: 0;
+    }
+    to {
+        height: 200px;
+    }
+}
+
+@keyframes opacity-open-anim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes middle-pricing-card-anim {
+    from {
+        top: 0;
+    }
+    to {
+        top: -50px;
+    }
+}
+
+@keyframes left-pricing-card-anim {
+    from {
+        left: -50px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@keyframes right-pricing-card-anim {
+    from {
+        right: -50px;
+    }
+    to {
+        right: 0;
+    }
+}
